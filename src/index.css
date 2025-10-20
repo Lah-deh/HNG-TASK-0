@@ -1,0 +1,28 @@
+.foot {
+  background-color: #0b1120;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 100;
+  box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.4);
+  padding-left: 0;
+}
+
+.icon {
+  color: #aaa;
+  transition: all 0.3s ease;
+}
+
+.icon:hover {
+  color: #fff;
+  transform: scale(1.1);
+}
+
+.icon.active {
+  color: #fff; 
+  transform: scale(1.2);
+}

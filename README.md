@@ -1,42 +1,16 @@
-HNG Stage 0 – Testable Profile Card
-Overview
+# React + Vite
 
-This project is my submission for HNG Frontend Stage 0.
-It’s a simple, responsive, and accessible profile card built with HTML, CSS, and vanilla JavaScript.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-The card shows:
+Currently, two official plugins are available:
 
-My name and short bio
-My photo
-The current time in milliseconds (auto-updating)
-My social links
-My hobbies and dislikes
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-Every visible element includes the required data-testid attributes for automated testing.
+## React Compiler
 
-Live Demo
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-Hosted on: https://lah-deh.github.io/HNG-TASK-0/
-Repository: https://github.com/Lah-deh/HNG-TASK-0
+## Expanding the ESLint configuration
 
-Features
-
-Semantic HTML structure (article, header, section, figure, nav)
-
-Responsive layout using Flexbox
-
-Dynamic time display powered by Date.now()
-
-Accessible image with descriptive alt text
-
-Social links open in new tabs safely (target="_blank" rel="noopener noreferrer")
-
-Keyboard focus visible for all links
-
-Clean, centered card design with box-shadow and balanced spacing
-
-How to Run
-
-Clone the repo
-
-Open index.html in any browser
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
