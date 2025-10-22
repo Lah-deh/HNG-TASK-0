@@ -1,0 +1,39 @@
+.head{
+    display: flex;
+    align-items: center;
+    gap: 30%;
+    .arr{
+        margin-left: 10px;
+    }
+}
+.about {
+  background-color: rgb(31, 30, 30);
+  color: #ffffff;
+  min-height: 100vh;
+  padding: 2rem 1.5rem;
+  line-height: 1.6;
+
+  h2 {
+    color: #00b4d8;
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+  }
+
+  section {
+    margin-bottom: 2rem;
+  }
+
+  ul {
+    list-style: disc;
+    margin-left: 1.5rem;
+  }
+
+  p {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+  }
+
+  @media (min-width: 768px) {
+    padding: 3rem 6rem;
+  }
+}
