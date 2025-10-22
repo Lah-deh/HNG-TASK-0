@@ -5,6 +5,13 @@
     .arr{
         margin-left: 10px;
     }
+
+
+    @media(min-width:1024px){
+        .arr{
+            font-size: 50px;
+        }
+    }
 }
 
 

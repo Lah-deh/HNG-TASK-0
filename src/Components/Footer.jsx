@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer className='foot'>
       <NavLink to="/" className="icon">
-        <FaHome size={24} />
+        <FaHome size={24} className='arrr' />
       </NavLink>
       <NavLink to="/about" className="icon">
         <FaUser size={24} />
