@@ -1,7 +1,7 @@
 import React from "react";
 import "../Styles/about.scss";
 
-const Main = () => {
+const Mainn = () => {
   return (
     <main data-testid="test-about-page" className="about">
       <section data-testid="test-about-bio">
@@ -49,4 +49,4 @@ const Main = () => {
   );
 };
 
-export default Main;
+export default Mainn;
