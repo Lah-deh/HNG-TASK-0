@@ -5,7 +5,7 @@ import Formm from '../Components/Form.jsx'
 import Footer from '../Components/Footer.jsx'
 const Contact = () => {
   return (
-    <div className='con'>
+    <div className='container'>
       <Header />
       <Formm/>
       <Footer />

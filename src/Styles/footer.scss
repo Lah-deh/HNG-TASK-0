@@ -4,32 +4,61 @@
   justify-content: space-around;
   align-items: center;
   padding: 1rem 0;
-  position: st;
+  position: fixed;
   bottom: 0;
   width: 100%;
   z-index: 100;
   box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.4);
-  padding-left: 0;
-  margin-left: 0;
+  
+
+
+  .icon {
+    color: #aaa;
+    
+    transition: all 0.3s ease;
+  }
+
+  .icon:hover {
+    color: #fff;
+    transform: scale(1.1);
+  }
+
+  .icon.active {
+    color: #fff; 
+    transform: scale(1.2);
+  }
+
+
+  
   
 }
 
-.icon {
-  color: #aaa;
-  
-  transition: all 0.3s ease;
-}
-
-.icon:hover {
-  color: #fff;
-  transform: scale(1.1);
-}
-
-.icon.active {
-  color: #fff; 
-  transform: scale(1.2);
+@media (min-width:768px){
+  .foot{
+    left: 0;
+    width: 100%;
+      
+  }
+  .arrr{
+    font-size: 25px;
+  }
 }
 
 
 
+@media (min-width:1024px){
+  .arrr{
+    font-size: 30px;
+  }
+}
 
+
+@media (min-width:2560px){
+  .arrr{
+    font-size: 60px;
+    
+  }
+  .foot{
+    padding-bottom: 1rem;
+  }
+}

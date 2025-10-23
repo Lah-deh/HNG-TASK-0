@@ -7,13 +7,13 @@ const Footer = () => {
   return (
     <footer className='foot'>
       <NavLink to="/" className="icon">
-        <FaHome size={24} className='arrr' />
+        <FaHome className='arrr' />
       </NavLink>
       <NavLink to="/about" className="icon">
-        <FaUser size={24} />
+        <FaUser className='arrr'/>
       </NavLink>
       <NavLink to="/contact" className="icon">
-        <FaEnvelope size={24} />
+        <FaEnvelope className='arrr'/>
       </NavLink>
     </footer>
   )
